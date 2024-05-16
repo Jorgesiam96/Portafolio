@@ -1,0 +1,143 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+   
+}
+
+span {
+    display: block;
+    width: 100px;
+}
+
+.tooltip span {
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(21, 39, 59, 0.911);
+    color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    white-space: center;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+    width: 600px;
+    height: 300px;
+    border: solid 1px;
+
+}
+
+.tooltip .span-1 {
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(21, 39, 59, 0.911);
+    color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    white-space: center;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+    width: 620px;
+    height: 250px;
+    border: solid 1px;
+
+}
+
+.tooltip .span-2 {
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(21, 39, 59, 0.911);
+    color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    white-space: center;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+    width: 620px;
+    height: 190px;
+    border: solid 1px;
+
+}
+
+.tooltip .span-3 {
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(21, 39, 59, 0.911);
+    color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    white-space: center;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+    width: 600px;
+    height: 247px;
+    border: solid 1px;
+
+}
+
+.tooltip .span-4 {
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(21, 39, 59, 0.911);
+    color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    white-space: center;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+    width: 600px;
+    height: 267px;
+    border: solid 1px;
+
+}
+
+.tooltip .span-5 {
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(21, 39, 59, 0.911);
+    color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    white-space: center;
+    transition: opacity 0.3s, visibility 0.3s;
+    font-size: 17px;
+    width: 620px;
+    height: 247px;
+    border: solid 1px;
+
+}
+
+
+.tooltip:hover span {
+    visibility: visible;
+    opacity: 1;
+}
