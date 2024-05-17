@@ -43,6 +43,17 @@ p {
     box-shadow: 0 4px 8px rgb(146, 142, 142);
     margin-top: 25px;
 }
+#p {
+   margin-left: 85px;
+    width: 250px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 380;
+    color: rgba(232, 232, 224, 0.725);
+    background-color: rgba(21, 39, 59, 0.511);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(146, 142, 142);
+    margin-top: 25px;}
 
 h1 {
     text-align: center;
@@ -68,14 +79,9 @@ h1 {
 }
 
 .a {
-    margin-right: 10px;
-    margin-left: 5px;
-    text-decoration: none;
-    box-shadow: 1px 4px 2px rgb(221, 215, 215);
-    border-radius: 10px;
-    color: rgb(176, 165, 165);
-    font-weight: 450px;
-    height: 35px;
+   text-decoration: none;
+   width: 80%;
+   height: 100%;
     display: inline-block;
 }
 
@@ -105,13 +111,10 @@ li {
     font-size: 30px;
     height: 40px;
     
+    
 }
 
-.img-1 {
-    margin-right: 25px;
-    display: inline-block;
- 
-}
+
 
 .text-1 {
     font-size: 50px;
@@ -137,6 +140,12 @@ footer {
     color: white;
     margin-bottom: 15px;
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 1000px) {
     .box-1 {
@@ -196,7 +205,7 @@ footer {
         width: auto;
         font-size: 18px;
     }
-    span {
+    .span-0 {
         display: none;
     
     }
@@ -215,12 +224,17 @@ footer {
     .span-5 {
         display: none;
     }
+    .swiper-container {
+        
+        width: 250px;
+        display: contents;
+        
+      }
+      #nao {
+       margin-top: 300px;
+      }
 
-
-
-
-
-
+      
 
 
 

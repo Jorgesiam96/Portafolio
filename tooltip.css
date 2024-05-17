@@ -10,7 +10,7 @@ span {
     width: 100px;
 }
 
-.tooltip span {
+.tooltip .span-0 {
     visibility: hidden;
     text-align: center;
     opacity: 0;

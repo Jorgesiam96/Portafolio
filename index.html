@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -11,6 +11,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./tooltip.css">
+    <link rel="stylesheet" href="./swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>Portafolio</title>
 </head>
 
@@ -54,108 +56,60 @@
 
         <div class="box-2">
 
-
-
-
             <h2>Projetos em destaque</h2>
-            <ul>
+            <div class="swiper-container mySwiper">
+               
+                <div class="swiper-wrapper">
 
-                <li>
-                    <img class="img-1" width="45" height="45"
-                        src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/40/FFFFFF/external-burger-fast-food-vitaliy-gorbachev-fill-vitaly-gorbachev.png"
-                        alt="external-burger" />
-                    <a class="a" href="https://jorgesiam96.github.io/Burger-DevClub/" target="_blank">
-                        <div class="tooltip"> BurgerDev <span> "Burger DevClub é um projeto web que se destaca pelo seu
-                                meticuloso foco na implementação de tecnologias front-end. Desenvolvido inteiramente com
-                                HTML, CSS e JavaScript, este projeto exibe um menu interativo que mostra uma variedade
-                                de hambúrgueres e pratos com um design visualmente atraente e funcionalidades
-                                intuitivas. O código HTML é usado para estruturar o conteúdo do menu, enquanto o CSS é
-                                responsável por estilizar cada elemento, desde o layout até os detalhes de design. Por
-                                fim, o JavaScript é empregado para adicionar interatividade, permitindo que os usuários
-                                explorem o menu de forma dinâmica e façam pedidos com facilidade."
-                            </span> </div>
-                    </a>
-                </li>
+                    <div class="swiper-slide">
 
-                <br>
-                <li><img class="img-1" width="45" height="45"
-                        src="https://img.icons8.com/dotty/40/FFFFFF/ps-controller.png" alt="ps-controller" />
-                    <a class="a" href="https://jorgesiam96.github.io/proyecto-JOKENPO/" target="_blank">
-                        <div class="tooltip"> JokenpoDev <span class="span-1"> "Jokenpo é um projeto de jogo simples que
-                                traz a clássica diversão do pedra, papel e tesoura para o mundo digital. Desenvolvido
-                                usando HTML, CSS e JavaScript, este jogo oferece uma experiência interativa onde os
-                                jogadores podem competir contra o computador em partidas emocionantes. O HTML é
-                                utilizado para estruturar a interface do jogo, enquanto o CSS é responsável por
-                                estilizar os elementos e dar vida ao design, o JavaScript é empregado para implementar a
-                                lógica do jogo, permitindo que os jogadores escolham sua jogada e determinando o
-                                vencedor de cada rodada."
-                            </span> </div>
-                    </a>
-                </li>
-                <br>
-                <li><img class="img-1" width="45" height="45"
-                        src="https://img.icons8.com/dotty/80/FFFFFF/instagram-new.png" alt="instagram-new" />
-                    <a class="a" href="https://jorgesiam96.github.io/Projeto-Insta/" target="_blank">
-                        <div class="tooltip"> InstaDev <span class="span-2"> "Meu primeiro projeto é uma página de login
-                                inspirada no Instagram, onde explorei os conceitos fundamentais de HTML, CSS e
-                                JavaScript para criar uma experiência de usuário semelhante à da rede social popular.
-                                Utilizando HTML para estruturar os elementos da página, CSS para estilizar o layout e
-                                JavaScript para adicionar funcionalidades interativas, como validação de formulário e
-                                animações de transição, consegui replicar a essência da página de login do Instagram."
-                            </span> </div>
-                    </a>
-                </li>
-                <br>
-                <li><img class="img-1" width="45" height="45" src="https://img.icons8.com/dotty/40/FFFFFF/shop-two.png"
-                        alt="shop-two" />
-                    <a class="a" href="https://jorgesiam96.github.io/Desafio-2-Easy-Shopping/" target="_blank">
-                        <div class="tooltip"> ShoopingDev <span class="span-3"> "ShoppingDev marca o início da minha
-                                jornada no curso DevClub, onde, junto com meu mentor Rodolfo Mori, comecei a explorar o
-                                emocionante mundo do desenvolvimento web. Este projeto, criado exclusivamente com HTML e
-                                CSS, representa meus primeiros passos na construção de sites. Através da estruturação do
-                                conteúdo com HTML e da aplicação de estilos com CSS, projetei uma experiência de compra
-                                básica, mas funcional. Desde a disposição dos elementos até a seleção de cores e fontes,
-                                cada decisão de design foi uma oportunidade para aprender e crescer como desenvolvedor
-                                web."
-                            </span> </div>
-                    </a>
-                </li>
-                <br>
-                <li><img class="img-1" width="45" height="45"
-                        src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/45/FFFFFF/external-dice-arcade-flatart-icons-outline-flatarticons.png"
-                        alt="external-dice-arcade-flatart-icons-outline-flatarticons" />
-                    <a class="a" href="https://jorgesiam96.github.io/proyecto-DevSorteio/" target="_blank">
-                        <div class="tooltip"> DevSorteio <span class="span-4"> "DevSorteio é um projeto onde explorei a
-                                aplicação de HTML, CSS, JavaScript e a função Math.random() para criar uma plataforma de
-                                sorteio. Utilizando essas tecnologias, desenvolvi uma experiência interativa onde os
-                                usuários podem participar de sorteios de forma simples e divertida. O HTML foi utilizado
-                                para estruturar a página, enquanto o CSS foi responsável por estilizar os elementos e
-                                proporcionar uma aparência atraente. Com o JavaScript, implementei a lógica do sorteio,
-                                utilizando a função Math.random() para gerar números aleatórios e determinar os
-                                resultados dos sorteios.
-                            </span> </div>
-                    </a>
-                </li>
-                <br>
-                <li><img class="img-1" width="45" height="45"
-                        src="https://img.icons8.com/pastel-glyph/45/FFFFFF/location--v2.png" alt="location--v2" />
-                    <a class="a" href="https://jorgesiam96.github.io/Desafio-1-Wide-Coverage-Location/" target="_blank">
-                        <div class="tooltip"> DevLocation<span class="span-5"> "DevLocation representa um dos meus
-                                primeiros projetos no DevClub, onde mergulhei na criação de sites utilizando apenas
-                                HTML e CSS. Este projeto foi uma oportunidade para aplicar os conceitos fundamentais que
-                                aprendi, desde a estruturação do conteúdo com HTML até a estilização com CSS. Com o
-                                DevLocation, eu queria criar uma plataforma simples, mas funcional. Através do uso do
-                                HTML, consegui construir a
-                                estrutura básica da página, enquanto o CSS foi responsável por estilizar e dar vida à
-                                experiência, criando um design atraente e intuitivo.
-                            </span> </div>
-                    </a>
-                </li>
-            </ul>
+                        <a class="a" href="https://jorgesiam96.github.io/Burger-DevClub/" target="_blank">
+                            <img class="img-1" src="./img/Captura de tela 2024-05-16 205420.png" /><p id="p">Burgeur_Dev</p>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+
+                        <a class="a" href="https://jorgesiam96.github.io/proyecto-JOKENPO/" target="_blank">
+                            <img class="img-1" src="./img/jokenpo.png" /><p id="p">Jokenpo_Dev</p>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a class="a" href="https://jorgesiam96.github.io/Projeto-Insta/" target="_blank">
+                            <img class="img-1" src="./img/insta.png" /><p id="p">Insta_Dev</p>
+
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a class="a" href="https://jorgesiam96.github.io/Desafio-2-Easy-Shopping/" target="_blank">
+                            <img class="img-1" src="./img/easy shoping.png" /><p id="p">Shopping_Dev</p>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a class="a" href="https://jorgesiam96.github.io/proyecto-DevSorteio/" target="_blank">
+                            <img class="img-1" src="./img/dev sorteio.png" /><p id="p">Dev_Sorteio</p>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a class="a" href="https://jorgesiam96.github.io/Desafio-1-Wide-Coverage-Location/"
+                            target="_blank">
+                            <img class="img-1" src="./img/wide coverage.png" /><p id="p">Location_Dev</p>
+                        </a>
+                    </div>
+                </div>
+                <div id="nao" class="swiper-button-next"></div>
+                <div id="nao" class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
 
         </div>
 
-       
+
     </div>
     <footer>
         <p class="p-1">Desenvolvido por</p> <br>
@@ -163,6 +117,25 @@
                 height="20" src="https://img.icons8.com/ios-glyphs/20/FFFFFF/github.png" alt="github" />
             jorgesiam96</a>
     </footer>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "flip",
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 
 </body>
 
